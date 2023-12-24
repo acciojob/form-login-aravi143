@@ -8,4 +8,4 @@ function getFormvalue() {
 	alert(`${firstNamename} ${lastNamename}`)
 }
 const form = document.getElementById('form1')
-form.addEventListener('submit',getFormvalue);
+form.addEventListener('submit',getFormvalue());
